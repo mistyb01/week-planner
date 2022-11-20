@@ -53,12 +53,25 @@ main {
 }
 
 .daily-entry h2 {
-    border-bottom: 1px solid var(--border-color);
-    padding: 0.25rem 1rem;
+
 }
 
 .input-form {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem 1rem;
+}
+
+button {
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    padding: 0.25rem 0.5rem;
 }
