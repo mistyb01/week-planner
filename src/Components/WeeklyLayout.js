@@ -1,14 +1,17 @@
 import React from 'react';
 import DailyEntry from './DailyEntry.js';
 
-function WeeklyLayout({days}) {
+function WeeklyLayout({entryData}) {
 
   return (
-    <>
-    {days.map(
-      day => <DailyEntry date={day}/>
+    <div class="week-wrapper">
+    {entryData.map(
+      entry => <DailyEntry 
+        date={entry.date} 
+        tasks={entry.tasks}
+        notes={entry.notes}/>
     )}
-    </>
+    </div>
   );
 }
 
