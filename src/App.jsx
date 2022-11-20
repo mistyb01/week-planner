@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import WeeklyLayout from './Components/WeeklyLayout'
 
 function App() {
+  let days= ['mon', 'tues', 'wed']
   return (
     <p>
-      Cleanedup React App
+      <WeeklyLayout days={days}/>
     </p>
   );
 }
