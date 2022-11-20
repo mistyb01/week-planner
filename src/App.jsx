@@ -22,15 +22,12 @@ function App() {
     {
       date: 'wed | 16',
     },
-        {
-      date: 'wed | 16',
-    }
 
   ]
   return (
-    <>
+    <main>
       <WeeklyLayout entryData={entryData}/>
-    </>
+    </main>
   );
 }
 
