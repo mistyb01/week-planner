@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.daily-entry {
+    border: 1px solid black;
+    width: fit-content;
+}
+.entry-content {
+    padding: 1rem;
+}
+.daily-entry h2 {
+    border-bottom: 1px solid black;
+}
